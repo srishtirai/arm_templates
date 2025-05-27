@@ -79,7 +79,7 @@
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
     "vmName": "[parameters('myVMName')]",
-    "vmSize": "Standard_D2_v2",
+    "vmSize": "Standard_B1s",
     "virtualNetworkName": "[parameters('myVNETName')]",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
