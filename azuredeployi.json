@@ -67,7 +67,7 @@
   "variables": {
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
-    "ubuntuOSVersion": "22.04 LTS - X64 Gen2",
+    "ubuntuOSVersion": "22_04-lts-gen2",
     "OSDiskName": "osdiskfordockersimple",
     "nicName": "[parameters('myNicName')]",
     "extensionName": "DockerExtension",
